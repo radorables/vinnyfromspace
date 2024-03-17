@@ -1056,17 +1056,17 @@ input, select, textarea {
 
 	.panel {
 		padding: 4em 4em 2em 4em ;
-		-moz-transform: translateY(100vh);
-		-webkit-transform: translateY(100vh);
-		-ms-transform: translateY(100vh);
-		transform: translateY(100vh);
+		-moz-transform: translateY(-100vh);
+		-webkit-transform: translateY(-100vh);
+		-ms-transform: translateY(-100vh);
+		transform: translateY(-100vh);
 		-moz-transition: -moz-transform 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
 		background: rgba(36, 38, 41, 0.975);
-		bottom: 4em;
+		top: calc(4em - 1px);
 		left: 0;
 		max-height: calc(80vh - 4em);
 		overflow-y: auto;
