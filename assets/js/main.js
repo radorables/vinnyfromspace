@@ -259,6 +259,8 @@
 				popupLoaderText: '',
 				popupSpeed: 300,
 				popupWidth: 150,
+				usePopupCloser:				true,			// If true, show the popup closer button/link
+				usePopupEasyClose:			false,			// If true, popup can be closed by clicking on
 				selector: '.thumb > a.image',
 				usePopupCaption: true,
 				usePopupCloser: true,
