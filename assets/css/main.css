@@ -1655,6 +1655,16 @@ input, select, textarea {
 				z-index: 1;
 			}
 
+			#main .thumb > h3 {
+				pointer-events: none;
+				bottom: 0.875em;
+				font-size: 0.8em;
+				left: 2.1875em;
+				margin: 0;
+				position: absolute;
+				z-index: 1;
+			}
+
 			#main .thumb > p {
 				display: none;
 			}
